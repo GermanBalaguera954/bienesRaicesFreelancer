@@ -34,8 +34,8 @@
     h1 {
         text-align: left;
         color: $blanco;
-        font-weight: bold;
+        font-weight: $bold;
         line-height: 2;
-        max-width: 600px;
+        max-width: 60rem;
     }
 }
