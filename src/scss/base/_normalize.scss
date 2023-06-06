@@ -188,7 +188,8 @@
   [type="button"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+    appearance: none;
+  -webkit-appearance: none;;
   }
   
   /**
@@ -279,9 +280,9 @@
    * 2. Correct the outline style in Safari.
    */
   
-  [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
+   [type="search"] {
+    border: 1px solid #ccc;
+    padding: 5px;
   }
   
   /**
