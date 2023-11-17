@@ -3,11 +3,12 @@
     font-size: 2.4rem;
     padding: 2rem;
     color: $blanco;
-    border-radius: 2rem;
+    border-radius: 2rem;    
 
     blockquote {
         padding-left: 5rem;
         position: relative;
+
 
         &::before {
             content: '';
@@ -20,9 +21,9 @@
             left: -2rem;
         }
     }
-    p{
+
+    p {
         text-align: right;
         color: $blanco;
     }
-
 }

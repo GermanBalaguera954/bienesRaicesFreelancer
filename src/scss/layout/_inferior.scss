@@ -14,13 +14,12 @@
         grid-template-columns: 1fr 2fr;
         column-gap: 2rem;
     }
-
     &:last-of-type {
         margin-bottom: 0;
     }
 }
 
-.informacion-meta{
+.informacion-meta {
     span {
         color: $amarillo;
     }
@@ -31,18 +30,15 @@
         color: $negro;
         margin-top: 2rem;
         display: block;
-
         @include tablet {
             margin-top: 0;
         }
     }
-
     h4 {
         margin: 0;
         line-height: 1.4;
-
         &::after {
-            content: "";
+            content: '';
             display: block;
             width: 15rem;
             height: .5rem;
@@ -50,4 +46,5 @@
             margin-top: 1rem;
         }
     }
+
 }
